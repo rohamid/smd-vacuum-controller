@@ -5,6 +5,145 @@
 	(uuid "fcc0f768-f09d-4e04-9a28-b7708ced251d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -2609,6 +2748,12 @@
 		)
 	)
 	(junction
+		(at 184.15 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25a1212d-ca7d-475c-b8c9-1f63960fd822")
+	)
+	(junction
 		(at 43.18 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2637,6 +2782,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44518dec-762c-4c0d-943d-a84b269f3f7a")
+	)
+	(junction
+		(at 184.15 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c59b38-4e7e-4e0c-971c-f4f97003675c")
 	)
 	(junction
 		(at 77.47 46.99)
@@ -2687,12 +2838,6 @@
 		(uuid "cb58b666-bcd0-485d-a671-7824d8515a0f")
 	)
 	(junction
-		(at 43.18 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d35f3225-48ab-4f41-9066-2848ce5c42cb")
-	)
-	(junction
 		(at 53.34 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2716,6 +2861,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 154.94) (xy 184.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06618c8f-291b-461f-a0e1-5318686bd921")
+	)
+	(wire
+		(pts
 			(xy 77.47 71.12) (xy 85.09 71.12)
 		)
 		(stroke
@@ -2733,6 +2888,16 @@
 			(type default)
 		)
 		(uuid "075c58de-d42b-4aae-ab14-d24566b2a777")
+	)
+	(wire
+		(pts
+			(xy 171.45 144.78) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5fa2cf-7db0-4466-86d2-5fca77f64345")
 	)
 	(wire
 		(pts
@@ -2796,7 +2961,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 111.76) (xy 52.07 111.76)
+			(xy 43.18 125.73) (xy 52.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2826,6 +2991,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 142.24) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cf5a31-3654-4189-acb1-c74c2ab95742")
+	)
+	(wire
+		(pts
 			(xy 208.28 102.87) (xy 219.71 102.87)
 		)
 		(stroke
@@ -2833,16 +3008,6 @@
 			(type default)
 		)
 		(uuid "2c335fb4-9dd5-4a43-9cc6-95e8effda6ef")
-	)
-	(wire
-		(pts
-			(xy 43.18 111.76) (xy 43.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d734e4b-f7dd-46d8-b774-87c0ba9c1043")
 	)
 	(wire
 		(pts
@@ -2966,6 +3131,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 144.78) (xy 190.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497a1fad-92b1-4982-87c3-77fced4c1f43")
+	)
+	(wire
+		(pts
 			(xy 43.18 91.44) (xy 46.99 91.44)
 		)
 		(stroke
@@ -2973,6 +3148,16 @@
 			(type default)
 		)
 		(uuid "4d31d68e-f130-4b9f-b80e-09b0fc5e6532")
+	)
+	(wire
+		(pts
+			(xy 184.15 153.67) (xy 184.15 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dae0a3e-2a29-4e13-ba02-2b7efdf1fae1")
 	)
 	(wire
 		(pts
@@ -3026,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 110.49) (xy 43.18 111.76)
+			(xy 43.18 110.49) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3103,6 +3288,16 @@
 			(type default)
 		)
 		(uuid "773c3bef-2cc7-4e46-aca7-39a9cf55f65d")
+	)
+	(wire
+		(pts
+			(xy 184.15 135.89) (xy 184.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79087c76-7cfc-43d9-bc37-1a5544e86a46")
 	)
 	(wire
 		(pts
@@ -3276,6 +3471,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 153.67) (xy 184.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a478f153-4a99-436a-a462-32e2974a6003")
+	)
+	(wire
+		(pts
 			(xy 43.18 46.99) (xy 43.18 50.8)
 		)
 		(stroke
@@ -3313,6 +3518,16 @@
 			(type default)
 		)
 		(uuid "bcb0aed5-d74a-468a-b732-ea2fe1cac7b0")
+	)
+	(wire
+		(pts
+			(xy 189.23 147.32) (xy 189.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf7b1f2-d04c-49e0-9c03-86653f2e5e9b")
 	)
 	(wire
 		(pts
@@ -3386,6 +3601,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 144.78) (xy 184.15 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bd6753-1cf6-45a3-8470-de76a70da176")
+	)
+	(wire
+		(pts
 			(xy 100.33 144.78) (xy 100.33 146.05)
 		)
 		(stroke
@@ -3453,6 +3678,16 @@
 			(type default)
 		)
 		(uuid "e3daaa40-1b23-4088-8f10-88dbc7557fa8")
+	)
+	(wire
+		(pts
+			(xy 189.23 147.32) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4679707-f51f-4c0e-932d-d3c6a8d25bda")
 	)
 	(wire
 		(pts
@@ -3611,8 +3846,19 @@
 		)
 		(uuid "39684c21-ce98-452b-ba0e-a5081c08c6a3")
 	)
+	(label "FOOTSW"
+		(at 171.45 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62aa54b8-c56b-4d24-9a1a-6adcb9c17d44")
+	)
 	(label "BOOT0"
-		(at 52.07 111.76 180)
+		(at 52.07 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3709,6 +3955,42 @@
 			(justify right bottom)
 		)
 		(uuid "febc77f1-7024-43aa-bcc5-6a357b5d0fd6")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 127 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7ad039e-6a5b-498a-9428-9dd407f86690")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 77.47 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3864a46-917f-4259-888b-5734302a592f")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 127 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8f4631e-d09b-4f06-9f6f-b6d6a292ac07")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -4007,7 +4289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 57.15 0)
 			(effects
 				(font
@@ -4176,6 +4458,72 @@
 			(project "smd-vacuum-controller"
 				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28023aa8-a931-4292-9b04-44e9e117c387")
+		(property "Reference" "#PWR073"
+			(at 184.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3b60440-8250-4326-a530-eb568dae321c")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4769,6 +5117,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.15 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41f35d77-6b43-44f6-87ae-3e42e32b5f35")
+		(property "Reference" "R27"
+			(at 186.69 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K"
+			(at 186.69 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.15 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7315953d-89a8-4be3-a6ef-50fc5f80cb75")
+		)
+		(pin "2"
+			(uuid "0481b280-28fa-4afe-9028-c07de6e554df")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 58.42 0)
 		(unit 1)
@@ -5243,6 +5661,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 184.15 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7109e5-8230-468d-a27a-ea171d7bfb9b")
+		(property "Reference" "#PWR072"
+			(at 184.15 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VMCU"
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b15ac4c1-473e-41f1-91b0-09264fa0fab9")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 212.09 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5384,10 +5868,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8203a11c-aca9-4840-b920-d0e10a0cf533")
 		(property "Reference" "R1"
-			(at 73.66 71.12 90)
+			(at 75.692 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5878,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 73.66 73.66 90)
+			(at 71.374 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,83 +6280,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 125.73 0)
+		(lib_id "Device:C_Small")
+		(at 184.15 149.86 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a865bf40-8270-4a0d-8e62-b465f25894de")
-		(property "Reference" "#PWR057"
-			(at 43.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec25668e-0bb9-4272-9f51-5ac9637ae851")
-		)
-		(instances
-			(project "smd-vacuum-controller"
-				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 226.06 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b900a2c4-9996-42db-83ba-48275b6df34a")
-		(property "Reference" "J7"
-			(at 228.6 123.1899 0)
+		(uuid "ae4e8f47-4c17-493b-bc4a-04e4d49cdf17")
+		(property "Reference" "C26"
+			(at 181.61 148.5962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,8 +6298,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ST-LINKV2"
-			(at 228.6 125.7299 0)
+		(property "Value" "100nF"
+			(at 181.61 151.1362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,8 +6307,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 226.06 123.19 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 184.15 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +6317,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 123.19 0)
+			(at 184.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba40bdf-151a-4601-9809-581551ac859e")
+		)
+		(pin "2"
+			(uuid "bf60a4de-8524-496a-b1e0-e2ad4a3b47c5")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 226.06 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b900a2c4-9996-42db-83ba-48275b6df34a")
+		(property "Reference" "J7"
+			(at 228.6 125.7301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ST-LINKV2"
+			(at 228.6 123.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 226.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +6396,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 226.06 123.19 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,6 +6954,76 @@
 			(project "smd-vacuum-controller"
 				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 195.58 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffcc7776-8818-43c5-b26d-01b34c469d79")
+		(property "Reference" "J9"
+			(at 198.12 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 198.12 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b5d09ef-b691-40dc-a265-5257737fe19f")
+		)
+		(pin "2"
+			(uuid "f45030a1-493a-4288-a072-7191f6ca9613")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "J9")
 					(unit 1)
 				)
 			)

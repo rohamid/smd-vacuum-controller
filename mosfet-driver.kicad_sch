@@ -2345,6 +2345,12 @@
 		)
 	)
 	(junction
+		(at 177.8 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16fb83a2-9872-4ff4-89b9-1118fa81da02")
+	)
+	(junction
 		(at 63.5 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2413,6 +2419,26 @@
 			(type default)
 		)
 		(uuid "04ad8b5f-c0c2-4dc1-a796-d2a747c81a37")
+	)
+	(wire
+		(pts
+			(xy 179.07 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0604b9af-c990-4957-9011-ab1b46ce6b33")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c1c3c7-5db9-4d43-8e0d-e36282900bb4")
 	)
 	(wire
 		(pts
@@ -2576,6 +2602,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 104.14) (xy 186.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f4d7c9-1323-4513-bb9e-6b66f7d149a5")
+	)
+	(wire
+		(pts
 			(xy 113.03 113.03) (xy 113.03 110.49)
 		)
 		(stroke
@@ -2586,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 186.69 104.14)
+			(xy 166.37 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2803,6 +2839,16 @@
 			(type default)
 		)
 		(uuid "97139aed-b2e3-4b97-85f7-eefaca677bd5")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 177.8 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fe7293-85b4-43f6-905c-412c4d9a748b")
 	)
 	(wire
 		(pts
@@ -3056,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 194.31 109.22)
+			(xy 194.31 111.76) (xy 194.31 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3146,6 +3192,7 @@
 	)
 	(label "VREF"
 		(at 67.31 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3156,6 +3203,7 @@
 	)
 	(label "NFAULT"
 		(at 67.31 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3166,6 +3214,7 @@
 	)
 	(label "PH/IN2"
 		(at 67.31 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3176,6 +3225,7 @@
 	)
 	(label "PMODE"
 		(at 67.31 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3197,6 +3247,7 @@
 	)
 	(label "EN/IN1"
 		(at 67.31 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3207,6 +3258,7 @@
 	)
 	(label "NSLEEP"
 		(at 67.31 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3217,6 +3269,7 @@
 	)
 	(label "IMODE"
 		(at 67.31 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3237,7 +3290,7 @@
 		(uuid "fca9b2ef-00b0-4bf2-9496-36e8cb684cf2")
 	)
 	(label "SOLENOID"
-		(at 175.26 104.14 0)
+		(at 166.37 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3800,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 110.49 0)
+		(at 194.31 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3809,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e71b54c-536e-407c-b986-c3dc2b4dbb95")
 		(property "Reference" "#PWR027"
-			(at 194.31 116.84 0)
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 115.57 0)
+			(at 194.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 110.49 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 110.49 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 110.49 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,6 +4318,72 @@
 			(project ""
 				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/76adc4ea-8174-4821-81c1-63e0db9c24d0"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5caa8a23-392b-4fb4-a3db-6dc2ce856354")
+		(property "Reference" "#PWR074"
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe9d3c2-f485-4099-9422-4a7af67a24d4")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/76adc4ea-8174-4821-81c1-63e0db9c24d0"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5260,6 +5379,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 177.8 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf17d2af-6f76-4acf-afab-533d477d0dec")
+		(property "Reference" "R31"
+			(at 180.34 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 180.34 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f73bc7fd-f499-4e6b-94c2-d34bbb2b81d9")
+		)
+		(pin "2"
+			(uuid "bece7c7e-6d97-4660-8a04-841801cc5127")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/76adc4ea-8174-4821-81c1-63e0db9c24d0"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 110.49 0)
 		(unit 1)
@@ -5393,6 +5582,74 @@
 			(project ""
 				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/76adc4ea-8174-4821-81c1-63e0db9c24d0"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 181.61 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfa67ad5-7e47-404f-8dda-08ad57117524")
+		(property "Reference" "R30"
+			(at 181.61 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 181.61 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c743d92-781a-4cb9-9e33-cb431c2a88d2")
+		)
+		(pin "2"
+			(uuid "b5347d6f-2f99-4cce-a283-1935c617f9c3")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/76adc4ea-8174-4821-81c1-63e0db9c24d0"
+					(reference "R30")
 					(unit 1)
 				)
 			)

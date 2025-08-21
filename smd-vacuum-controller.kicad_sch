@@ -258,6 +258,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c69f6c9-3d9e-41c2-927b-c5d3796963af")
+	)
+	(wire
+		(pts
 			(xy 27.94 172.72) (xy 35.56 172.72)
 		)
 		(stroke
@@ -268,6 +278,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7c2817-7729-49ea-bdc0-bb741fc32a9f")
+	)
+	(wire
+		(pts
 			(xy 57.15 172.72) (xy 57.15 182.88)
 		)
 		(stroke
@@ -275,6 +295,16 @@
 			(type default)
 		)
 		(uuid "9a937447-d280-49c0-8752-980d349dd55e")
+	)
+	(wire
+		(pts
+			(xy 115.57 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a210118e-1863-4736-a105-9dac425d1dbd")
 	)
 	(wire
 		(pts
@@ -718,6 +748,36 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_D+" bidirectional
+			(at 120.65 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a8215e9-008e-44c7-ae38-ae5e1c0b1eef")
+		)
+		(pin "USB_D-" bidirectional
+			(at 120.65 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c021f792-d7c7-4a72-8a38-0ac867e0c3a7")
+		)
+		(pin "NRST" input
+			(at 120.65 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a672a95-25bc-4e6c-99b9-d6e94e83f9a8")
+		)
 		(instances
 			(project "smd-vacuum-controller"
 				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35"
@@ -755,6 +815,56 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "RESET" output
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4cf82360-2676-46ee-b309-2217651ed2c8")
+		)
+		(pin "USB_RENUM" input
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5cc516a-8755-4589-9b99-80bfce7d4063")
+		)
+		(pin "USB_D-" bidirectional
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3a89f2b-e7f6-4ef2-9c1a-192b63c4ae5e")
+		)
+		(pin "USB_D+" bidirectional
+			(at 115.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78dba773-26cd-473e-990b-8aec9a0460dc")
+		)
+		(pin "SOFT_BOOT" output
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35904847-39b0-4825-b37b-fc949386356f")
 		)
 		(instances
 			(project "smd-vacuum-controller"
