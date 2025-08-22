@@ -2748,6 +2748,12 @@
 		)
 	)
 	(junction
+		(at 207.01 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "065a6274-5f43-4c6a-9ce0-046703e1ddc2")
+	)
+	(junction
 		(at 184.15 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3051,16 +3057,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 50.8) (xy 219.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "374657ae-681c-4b36-9c8f-b9cae6bcdb67")
-	)
-	(wire
-		(pts
 			(xy 67.31 91.44) (xy 53.34 91.44)
 		)
 		(stroke
@@ -3221,6 +3217,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 50.8) (xy 219.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678a9b01-8a06-486e-9ceb-f248f45685fa")
+	)
+	(wire
+		(pts
 			(xy 209.55 123.19) (xy 220.98 123.19)
 		)
 		(stroke
@@ -3298,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "79087c76-7cfc-43d9-bc37-1a5544e86a46")
+	)
+	(wire
+		(pts
+			(xy 198.12 45.72) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df1eab5-eac8-4212-be09-c49d4849b140")
 	)
 	(wire
 		(pts
@@ -3381,6 +3397,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 48.26) (xy 219.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93100a83-4914-4add-96d8-85555dc97a0d")
+	)
+	(wire
+		(pts
 			(xy 43.18 93.98) (xy 43.18 91.44)
 		)
 		(stroke
@@ -3398,16 +3424,6 @@
 			(type default)
 		)
 		(uuid "965e4588-042d-4809-a84b-42377d510b4b")
-	)
-	(wire
-		(pts
-			(xy 207.01 45.72) (xy 219.71 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98720710-ddfc-4061-85f4-aba4960e87af")
 	)
 	(wire
 		(pts
@@ -3461,6 +3477,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 45.72) (xy 207.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3273eaa-2888-45e7-a9a3-882fb190f7b8")
+	)
+	(wire
+		(pts
 			(xy 31.75 46.99) (xy 43.18 46.99)
 		)
 		(stroke
@@ -3491,6 +3517,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 45.72) (xy 219.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a865857f-c4df-4112-912b-c810a7c65b24")
+	)
+	(wire
+		(pts
+			(xy 207.01 38.1) (xy 207.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9674fe-8850-4c76-b4fe-e52ff0459245")
+	)
+	(wire
+		(pts
 			(xy 43.18 86.36) (xy 43.18 81.28)
 		)
 		(stroke
@@ -3508,16 +3554,6 @@
 			(type default)
 		)
 		(uuid "b56fe400-9ead-4ce8-bca7-1fbc345142fd")
-	)
-	(wire
-		(pts
-			(xy 208.28 48.26) (xy 219.71 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb0aed5-d74a-468a-b732-ea2fe1cac7b0")
 	)
 	(wire
 		(pts
@@ -3598,6 +3634,26 @@
 			(type default)
 		)
 		(uuid "cd243eec-5996-4b46-a5c5-f7323356aca6")
+	)
+	(wire
+		(pts
+			(xy 198.12 40.64) (xy 198.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedba165-24fb-4f95-909d-f95684fed7bf")
+	)
+	(wire
+		(pts
+			(xy 198.12 39.37) (xy 207.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07dbc9b-e9ff-4a6c-8ffd-96c2d7521099")
 	)
 	(wire
 		(pts
@@ -3698,6 +3754,26 @@
 			(type default)
 		)
 		(uuid "e5e74692-0d90-48fe-b103-6f69d8e26f90")
+	)
+	(wire
+		(pts
+			(xy 219.71 39.37) (xy 207.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3b929b-5503-4f9b-a2da-5b3c54df116c")
+	)
+	(wire
+		(pts
+			(xy 207.01 39.37) (xy 207.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef07e3ab-8167-4322-a731-b3f08670288d")
 	)
 	(wire
 		(pts
@@ -5727,6 +5803,212 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 207.01 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "722109c1-c63c-4da0-aa8a-d9f7f36f1ae9")
+		(property "Reference" "#PWR075"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VMCU"
+			(at 207.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82edaf8-a4a4-4a1b-a33a-b84292810497")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 198.12 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d308c8e-3b5d-4213-a3f5-d3880d467cbe")
+		(property "Reference" "R33"
+			(at 200.66 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 200.66 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 198.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d570188-3fb2-4dd9-b03f-391c59878509")
+		)
+		(pin "2"
+			(uuid "68e97921-b030-44fc-8e78-5e62c5a84f61")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 207.01 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f5c2e73-2e50-4630-ba65-1058096d9d92")
+		(property "Reference" "R32"
+			(at 209.55 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 209.55 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf1ed38f-a9d1-4d61-a9b1-ca90911cc817")
+		)
+		(pin "2"
+			(uuid "377d8e8d-1ad9-425a-a5c3-ff7a5bde0697")
+		)
+		(instances
+			(project "smd-vacuum-controller"
+				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 212.09 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5922,73 +6204,6 @@
 			(project ""
 				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 207.01 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88658c57-8aeb-4008-a1c7-c62e16511481")
-		(property "Reference" "#PWR068"
-			(at 210.82 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VMCU"
-			(at 203.2 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 207.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e81d4b4-944c-4e8b-b633-e7645f706be7")
-		)
-		(instances
-			(project "smd-vacuum-controller"
-				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35/0078b484-0d9e-46fa-8387-5a63c786711d"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
