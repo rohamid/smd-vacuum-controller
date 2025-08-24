@@ -3547,7 +3547,6 @@
 	)
 	(label "RESET"
 		(at 243.84 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3558,7 +3557,6 @@
 	)
 	(label "USB_RENUM"
 		(at 30.48 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3569,7 +3567,6 @@
 	)
 	(label "USB_D+"
 		(at 30.48 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3580,7 +3577,6 @@
 	)
 	(label "USB_D-"
 		(at 30.48 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3591,7 +3587,6 @@
 	)
 	(label "SOFT_BOOT"
 		(at 245.11 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3602,7 +3597,6 @@
 	)
 	(label "USB_ACTIVITY"
 		(at 29.21 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3614,7 +3608,6 @@
 	(hierarchical_label "RESET"
 		(shape output)
 		(at 261.62 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3626,7 +3619,6 @@
 	(hierarchical_label "USB_ACTIVITY"
 		(shape input)
 		(at 29.21 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3638,7 +3630,6 @@
 	(hierarchical_label "USB_RENUM"
 		(shape input)
 		(at 30.48 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3650,7 +3641,6 @@
 	(hierarchical_label "SOFT_BOOT"
 		(shape output)
 		(at 245.11 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3662,7 +3652,6 @@
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 30.48 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3674,7 +3663,6 @@
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 30.48 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

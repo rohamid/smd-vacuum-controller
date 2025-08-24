@@ -218,6 +218,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07604cde-13a4-4f6b-9a16-8f2f57844a8b")
+	)
+	(wire
+		(pts
 			(xy 49.53 182.88) (xy 57.15 182.88)
 		)
 		(stroke
@@ -268,6 +278,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d9650e-6694-4092-b98b-26b38cd30759")
+	)
+	(wire
+		(pts
 			(xy 27.94 172.72) (xy 35.56 172.72)
 		)
 		(stroke
@@ -305,6 +325,16 @@
 			(type default)
 		)
 		(uuid "a210118e-1863-4736-a105-9dac425d1dbd")
+	)
+	(wire
+		(pts
+			(xy 115.57 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2db296-aac3-4efa-9763-dd6bf36e5bf7")
 	)
 	(wire
 		(pts
@@ -778,6 +808,36 @@
 			)
 			(uuid "5a672a95-25bc-4e6c-99b9-d6e94e83f9a8")
 		)
+		(pin "SOFT_BOOT" input
+			(at 120.65 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54ea8c09-10b6-4865-bd29-050c87e99238")
+		)
+		(pin "SOLENOID" output
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "94bf9dc3-6e39-49b1-b117-e3f07fa977c4")
+		)
+		(pin "USB_RENUM" output
+			(at 120.65 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5043c5d9-b42a-4645-a758-ec948df09a5f")
+		)
 		(instances
 			(project "smd-vacuum-controller"
 				(path "/58f4f64d-10fe-43f6-8af4-d87642e52b35"
@@ -941,6 +1001,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "SOLENOID" input
+			(at 166.37 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82801d20-8969-4664-af9c-bb838d191ddd")
 		)
 		(instances
 			(project "smd-vacuum-controller"
